@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, #050505, #210c38, #050505);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.categoria {
+    text-align: center;
+}
+
+.categoria img {
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.categoria a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.categoria a:hover {
+    color: #b56cff;
+}
